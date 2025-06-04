@@ -31,27 +31,38 @@
       <a href="faq.html">FAQs</a>
       <a href="booking.html">Book Now</a>
     </nav>
-      <a href="index.html">About Me</a>
-      <a href="subjects.html">Subjects Offered</a>
-      <a href="faq.html">FAQs</a>
-      <a href="booking.html">Book Now</a>
-    </nav>
   </header>
   <div class="container">
 
+    <div class="card">
+      <h2>Book a Tutoring Session</h2>
+      <p>Please fill out the form below to book a tutoring session. I’ll follow up by email with payment instructions and to confirm your appointment.</p>
 
+      <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
-<div class="card">
-  <h2>About Me</h2>
-  <img src="about_me_photo.jpeg" alt="Kamran Zahory" style="width: 100%; max-width: 300px; border-radius: 8px; margin-bottom: 1rem;" />
-  <p>As a nurse and biology graduate from the University of Virginia, I bring a strong foundation in both science and clinical care. I hold a BA in Biology and a Master of Science in Nursing from UVA, with advanced coursework in Pharmacology, Pathophysiology, and Critical Care. I tutor most biology, chemistry, and nursing courses, including subjects like Introductory and Organic Chemistry, Introductory Biology, Genetics, Ecology & Evolution, Med-Surg, and more. My approach is clear, supportive, and designed to help students succeed in the most challenging STEM and pre-health courses.</p>
-</div>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
 
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
+        <label for="availability">2–3 Times You Are Available:</label><br>
+        <textarea id="availability" name="availability" rows="3" required></textarea><br><br>
 
-    <footer>
-      &copy; 2025 Kamran Zahory. All rights reserved.
-    </footer>
+        <label for="file">Upload Course Materials (if any):</label><br>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="Submit Request">
+      </form>
+    </div>
+
   </div>
+
+  <footer> 
+    <p>2025 - Kamran Zahory</p>
+  </footer>
+
 </body>
 </html>
